@@ -1,184 +1,46 @@
 import React from "react";
+import './Seo.css'
 
 const Seo = () => {
- 
-  return (
-   <>
-     <div className='container'>
-<div className='row'>
-<div className='er col-lg-5'>
-<div class="container">
-		
-			<div class="wrapper">
-				<table>
-					<thead>
-						<tr>
-							<th>Keyword</th>
-							<th>Rank</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-                
-            <td class="team">digital marketing courses in andheri</td>
-            <td class="points">#1</td>
-              
-              </tr>
-					  <tr>
-               
-            <td class="team">best digital marketing courses in andheri</td>
-            <td class="points">#1</td>
-              
-              </tr>
-              <tr>
-               
-            <td class="team">digital marketing course in andheri</td>
-            <td class="points">#1</td> 
-              </tr>
-					</tbody>
-			 </table>
-			</div>
-		</div>
-</div>
-<div className='lk col-lg-7'>
-<img src='https://res.cloudinary.com/dub7ltxoo/image/upload/v1718098127/Screenshot_85_1_ahykan.png
 
-
-'></img>
-</div>
-</div>
-<div className='row'>
-<div className='er col-lg-5'>
-<div class="container">
-		
-			<div class="wrapper">
-      <table>
-					<thead>
-						<tr>
-							<th>Keyword</th>
-							<th>Rank</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-                
-            <td class="team">digital marketing courses in mumbai</td>
-            <td class="points">#5</td>
-              
-              </tr>
-					  <tr>
-               
-            <td class="team">best digital marketing courses in mumbai</td>
-            <td class="points">#5</td>
-              
-              </tr>
-              <tr>
-               
-            <td class="team">digital marketing course in mumbai</td>
-            <td class="points">#4</td>
-              
-              
-              </tr>
-            	
-					
-					</tbody>
-				</table>
-			</div>
-		</div>
-</div>
-<div className='lk col-lg-7'>
-<img src='https://res.cloudinary.com/dj1gcouh3/image/upload/v1717860515/Screenshot_84_owp2ux.png'></img>
-</div>
-</div>
-<div className='row'>
-<div className='er col-lg-5'>
-<div class="container">
-		
-			<div class="wrapper">
-      <table>
-					<thead>
-						<tr>
-							<th>Keyword</th>
-							<th>Rank</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-                
-            <td class="team">digital marketing courses in surat</td>
-            <td class="points">#1</td>
-              
-              </tr>
-					  <tr>
-               
-            <td class="team">best digital marketing courses in surat</td>
-            <td class="points">#1</td>
-              
-              </tr>
-              <tr>
-               
-            <td class="team">digital marketing course in surat</td>
-            <td class="points">#1</td>
-              
-              
-              </tr>
-            	
-					
-					</tbody>
-				</table>
-			</div>
-		</div>
-</div>
-<div className='lk col-lg-7'>
-<img src='https://res.cloudinary.com/dj1gcouh3/image/upload/v1717862050/Screenshot_85_ntnuwz.png'></img>
-</div>
-</div>
-<div className='row'>
-<div className='er col-lg-5'>
-<div class="container">
-		
-			<div class="wrapper">
-      <table>
-					<thead>
-						<tr>
-							<th>Keyword</th>
-							<th>Rank</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-                
-            <td class="team">home interior in mumbai </td>
-            <td class="points">#5</td>
-              
-              </tr>
-					  <tr>
-               
-            <td class="team">home interior design in mumbai </td>
-            <td class="points">#2</td>
-              
-              </tr>
-              <tr>
-               
-            <td class="team">best home interior design in mumbai</td>
-            <td class="points">#4</td>
-              
-              
-              </tr>
-            	
-					
-					</tbody>
-				</table>
-			</div>
-		</div>
-</div>
-<div className='lk col-lg-7'>
-<img src='https://res.cloudinary.com/dj1gcouh3/image/upload/v1717862279/Screenshot_87_q9kt2l.png'></img>
-</div>
-</div>
+	return (
+		<>
+		  <div className='sll'>
+  <div class="cardrr">
+  <div class="google">
+      <h1>
+        <b>G</b>
+        <b>o</b>
+        <b>o</b>
+        <b>g</b>
+        <b>l</b>
+        <b>e</b>
+    </h1>
+  </div>
+  <div class="search-box">
+    <h2>
+      Passionate Frontend Devs 
+    </h2>
+  </div>
+  <a href="https://codepen.io/seifsayed" class="result">
+  <p>#1</p>
+    <div class="title">
+      Seifeldin Mahjoub
     </div>
-   </>
-  );
+    <div class="website">
+      http//:<b>click-twice</b>.com/
+    </div>
+    <div class="description">
+      <p>
+        <span>Dec 2015 - </span>
+        Seifeldin is a vuejs fanboy, that's slowly falling in love with react. He likes to dance, medidate and meet new people. If you have read this, shoot me a message on twitter!
+      </p>
+    </div>
+  </a>
+</div>
+  </div>
+		</>
+	);
 };
 
 export default Seo;

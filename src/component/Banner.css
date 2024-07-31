@@ -1,0 +1,114 @@
+
+.sh{
+    margin-top: 200px;
+      display: flex;
+    justify-content: space-around;
+    }
+    .icon {
+
+      position: relative;
+      height: 130px;
+      width: 130px;
+      background-size: cover;
+      border-radius: 50%;
+      animation: wave 4s ease-in-out infinite;
+      transition: transform 0.3s ease, background-image 0.3s ease;
+    }
+    
+    .icon::before {
+      content: "";
+      position: absolute;
+      top: -400px;
+      left: 50%;
+      width: 2px;
+      height: 400px;
+      background-color: #e62e82;
+      transform: translateX(-50%);
+      z-index: -1;
+    }
+    
+    .icon:hover {
+      transform: scale(1.1);
+    }
+    
+    .instagram {
+      background-image: url("https://www.jitoutsource.com/wp-content/uploads/2018/07/seo-icon.png");
+      animation-delay: 0s;
+    }
+    
+    .x {
+      background-image: url("https://res.cloudinary.com/dljygdklh/image/upload/v1722073338/seo-icon_1_qaaxdk.png");
+      animation-delay: 1.s;
+    }
+    
+    .codepen {
+      background-image: url("https://res.cloudinary.com/dljygdklh/image/upload/v1722073338/seo-icon_2_xbph3d.png");
+      background-color: white;
+      animation-delay: 1.2s;
+    }
+    
+    .linkedin {
+      background-image: url("https://res.cloudinary.com/dljygdklh/image/upload/v1722073338/seo-icon_3_esgp2x.png");
+      animation-delay: 2s;
+    }
+    
+    .github {
+      background-image: url("https://res.cloudinary.com/dljygdklh/image/upload/v1722073338/seo-icon_4_jtvlqd.png");
+      animation-delay: 2.3s;
+    }
+    .web {
+      background-image: url("https://res.cloudinary.com/dljygdklh/image/upload/v1722073338/seo-icon_5_fhzl9c.png");
+      animation-delay: 3s;
+    }
+    
+    @keyframes wave {
+      0%, 100% {
+        transform: translate(0);
+      }
+      25% {
+        transform: translateY(-20px);
+      }
+      50% {
+        transform: translateY(10px);
+      }
+      75% {
+        transform: translateY(-20px);
+      }
+    }
+    
+    @media screen and (max-width: 800px) {
+      .icon::before {
+        top: -500px;
+        height: 500px;
+      }
+    }
+    
+    @media screen and (max-width: 450px) {
+      .container {
+        align-items: center;
+        gap: 10px;
+      }
+      .icon {
+        height: 60px;
+        width: 60px;
+      }
+      .icon::before {
+        top: -500px;
+        height: 500px;
+      }
+    }
+    
+    @media screen and (max-width: 400px) {
+      .icon {
+        height: 50px;
+        width: 50px;
+      }
+    }
+    
+    @media screen and (max-width: 330px) {
+      .icon {
+        height: 40px;
+        width: 40px;
+      }
+    }
+    

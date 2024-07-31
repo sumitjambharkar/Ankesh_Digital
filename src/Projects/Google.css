@@ -1,0 +1,39 @@
+.lk{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding-top: 80px;
+    margin-top: 20px;
+    height: 510px;
+    width:600px;
+    background-color: white;
+  }
+  .er{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding-top: 25px;
+    margin-top: 20px;
+    height: 510px;
+    background-color: white;
+  }
+  .wrapper{
+    margin-top: 150px;
+  
+  }
+  
+  
+  @media only screen and (max-width: 600px) {
+    .lk{
+     background-color: white;
+      margin-top: -15px;
+      padding-top: 25px;
+      height: auto;
+      padding-bottom: 20px;
+      margin-bottom:80px;
+    }
+    .er{
+      background-color: white;
+      margin-bottom: -300px;
+     
+      
+    }
+  }
+  
+  

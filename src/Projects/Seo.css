@@ -1,0 +1,66 @@
+.responsive-image {
+  width: 98%;
+  margin: 1em 1%;
+  float: left;
+}
+
+@media(min-width: 640px) {
+
+  .responsive-image {
+    width: 48%;
+  }
+}
+
+/* Gaussian Blur */
+.filter-blur {
+  filter: blur( 3px );
+  -webkit-filter: blur( 3px );
+}
+
+/* Grayscale */
+.filter-grayscale {
+  filter: grayscale( 50% );
+  -webkit-filter: blur( 50% );
+}
+
+/* Sepia */
+.filter-sepia {
+  filter: sepia( 50% );
+  -webkit-filter: sepia( 50% );
+}
+
+/* Brightness */
+.filter-brightness {
+  filter: brightness( 150% );
+  -webkit-filter: brightness( 150% );
+}
+
+/* Contrast */
+.filter-contrast {
+  filter: contrast( 150% );
+  -webkit-filter: contrast( 150% );
+}
+
+/* Invert */
+.filter-invert {
+  filter: invert( 90% );
+  -webkit-filter: invert( 90% );
+}
+
+/* Saturate */
+.filter-saturate {
+  filter: saturate( 50% );
+  -webkit-filter: saturate( 50% );
+}
+
+/* Hue Rotate */
+.filter-hue-rotate {
+  filter: hue-rotate( 180deg );
+  -webkit-filter: hue-rotate( 180deg );
+}
+
+/* Saturate & Blur */
+.filter-saturate-blur {
+  filter: saturate( 50% ) blur( 3px );
+  -webkit-filter: saturate( 50% ) blur( 3px );
+}

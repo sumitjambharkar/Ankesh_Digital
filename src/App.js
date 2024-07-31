@@ -14,6 +14,7 @@ import Google from './Projects/Google';
 import Content from './Projects/Content';
 import Graphic from './Projects/Graphic';
 import Website from './Projects/Website';
+import Certification from './component/Certification';
 
 const App = () => {
   return (
@@ -25,7 +26,8 @@ const App = () => {
         <Route path='/project' element={<Project/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/experience' element={<Expirence/>}/>
-        <Route path='/certification' element={<Contact/>}/>
+        <Route path='/certification' element={<Certification/>}/>
+        <Route path='/contact' element={<Contact/>}/>
 
         {/* Projects */}
         <Route path='/seo' element={<Seo/>}/>
